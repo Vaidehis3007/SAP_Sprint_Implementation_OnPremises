@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V10.4.0.20160610.1.923074_SAP" APIVersion="3.6.16064.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2026-04-13T21:46:30Z" uuid="158a2404-7003-442f-83e0-6222398d5e28">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.0/">
+   <?formServer defaultPDFRenderFormat acrobat9.1dynamic?>
+   <subform name="data" layout="tb" locale="en_IN" restoreState="auto">
+      <pageSet>
+         <pageArea name="Page1" id="Page1">
+            <contentArea x="0.25in" y="0.25in" w="8in" h="10.5in"/>
+            <medium stock="letter" short="8.5in" long="11in"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform w="8in" h="10.5in">
+         <draw name="Image1" y="9.525mm" x="9.525mm" w="28.575mm" h="15.875mm">
+            <value>
+               <image href="C:\Users\ABAPHANA26\Desktop\sap_logo.bmp" contentType="image/bmp"/>
+            </value>
+            <ui>
+               <imageEdit/>
+            </ui>
+         </draw>
+         <draw name="Text1" y="104.775mm" x="12.7mm" w="38.627mm" h="6.35mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="269343E4-578A-4836-B6E9-BA9E379C640F">Terms and Conditions</text>
+            </value>
+            <font typeface="Times New Roman" size="12pt" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            <?renderCache.bounds 106660 15166 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 20 Terms and Conditions 0 1417 10827 0 0 0 "Times New Roman" 0 0 12000 ISO-8859-1?></draw>
+         <draw name="Pages" x="139.7mm" y="104.775mm" w="34.925mm" h="6.35mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text xliff:rid="F1B9BF4F-93DC-482F-BE5E-DD240436B3D1"> Page 1 of 10</text>
+            </value>
+            <font typeface="Times New Roman" size="12pt" baselineShift="0pt"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            <?renderCache.bounds 99000 18000 0 0 0 0 0 0?>
+            <?renderCache.textRun 13  Page 1 of 10 0 0 12410 0 0 0 "Times New Roman" 0 0 12000 ISO-8859-1?></draw>
+         <?templateDesigner expand 1?>
+         <subform name="Table1" layout="table" columnWidths="19.0501mm 18.662mm" x="136.525mm" y="6.35mm">
+            <border>
+               <edge/>
+            </border>
+            <subform layout="row" name="Row1">
+               <assist role="TR"/>
+               <draw name="Text2" w="19.05mm" minH="4.445mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="3A12CF7A-D9D0-4613-AA09-2F5D6CA8D5D0">Vendor Address</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+               </draw>
+               <draw h="4.4451mm" name="Cell2">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row2">
+               <assist role="TR"/>
+               <draw name="Text3" w="19.05mm" minH="4.445mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="5D232583-A729-4EF7-962D-D1104EA9ADB8">Vendor</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+               </draw>
+               <draw h="4.4451mm" name="Cell2">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row3">
+               <assist role="TR"/>
+               <draw name="Text4" w="19.05mm" minH="4.445mm" y="0mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="C7CBBBC8-D335-430F-9AE5-61398CFF8D0D">Name</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+               </draw>
+               <draw h="4.4451mm" name="Cell2" y="0mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row4">
+               <assist role="TR"/>
+               <draw name="Text5" w="19.05mm" minH="4.445mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="1F51C68B-46EE-43C7-86E1-CB17DD005242">City</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+               </draw>
+               <draw h="4.4451mm" name="Cell2">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row5">
+               <assist role="TR"/>
+               <draw name="Text6" w="19.05mm" minH="4.445mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="54CE1385-8759-4B1F-A1B7-DC5FA571AC72">Ctr</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+               </draw>
+               <draw h="4.4451mm" name="Cell2">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <keep intact="contentArea"/>
+            <bind match="none"/>
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+            <?templateDesigner expand 0?></subform>
+         <subform name="GT_TABLE1" layout="table" x="12.7mm" y="63.5mm" columnWidths="22.209mm 24.819mm 30.792mm 50mm 50mm">
+            <subform layout="row" name="overflowLeader" id="overflowLeader_ID">
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="4C0D7B10-3C0A-4FA7-B60B-E7C72A7A7ED2">Vendor</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <para vAlign="middle"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="AAEDF17B-A8DA-4445-B7A1-D2ABC6D4E7D8">Manufact.</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <para vAlign="middle"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="00A6A4B0-F921-4BA0-BA82-B824621C05A2">Points</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <para vAlign="middle"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="AE195CB0-1363-45DE-81A2-957A56B1EC91">Material description</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <para vAlign="middle"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </draw>
+               <assist role="TH"/>
+               <occur max="-1"/>
+               <bind match="none"/>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="98451E70-F17D-414C-84BD-098B0FA3F3F8">Material description</text>
+                  </value>
+                  <font typeface="Times New Roman"/>
+                  <para vAlign="middle"/>
+                  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </draw>
+               <?templateDesigner expand 1?></subform>
+            <subform name="DATA" layout="row">
+               <field name="LIFNR" w="62mm" h="9mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="10"/>
+                  </value>
+                  <bind match="dataRef" ref="$.LIFNR"/>
+                  <desc>
+                     <text name="Schema Annotation">Account Number of Vendor or Creditor</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field name="MFRNR" w="62mm" h="9mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="10"/>
+                  </value>
+                  <bind match="dataRef" ref="$.MFRNR"/>
+                  <desc>
+                     <text name="Schema Annotation">Manufacturer number</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field name="ANZPU" w="62mm" h="9mm">
+                  <ui>
+                     <numericEdit>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <decimal fracDigits="3" leadDigits="10"/>
+                  </value>
+                  <bind match="dataRef" ref="$.ANZPU"/>
+                  <desc>
+                     <text name="Schema Annotation">Number of Points</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field name="MAKTX" w="62mm" h="9mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="40"/>
+                  </value>
+                  <bind match="dataRef" ref="$.MAKTX"/>
+                  <desc>
+                     <text name="Schema Annotation">Material description</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <assist role="TR"/>
+               <occur max="-1"/>
+               <bind match="dataRef" ref="$.DATA[*]"/>
+               <field name="MAKTX" w="62mm" h="9mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="40"/>
+                  </value>
+                  <bind match="dataRef" ref="$.MAKTX"/>
+                  <desc>
+                     <text name="Schema Annotation">Material description</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <occur min="0"/>
+            <bind match="dataRef" ref="$.GT_TABLE1"/>
+            <keep intact="contentArea"/>
+            <overflow leader="overflowLeader"/>
+            <?templateDesigner expand 1?></subform>
+         <draw name="Text7" y="50.8mm" x="69.85mm" w="53.408mm" h="5.939mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="F6587846-74D2-4E2D-A352-DC6FA410CC1A">Purchasing Info Records</text>
+            </value>
+            <font size="14pt" typeface="Times New Roman" weight="bold" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            <?renderCache.bounds 148559 14001 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 23 Purchasing Info Records 0 1417 12396 0 0 0 "Times New Roman" 1 0 14000 ISO-8859-1?></draw>
+      </subform>
+      <proto/>
+      <desc>
+         <text name="version">10.4.0.20160610.1.923074</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Times New Roman" 0 0 ISO-8859-1 4 112 28 0003001100130014002400260030003100330037003900440046004700480049004A004C004F00500051005200530055005600570058005C .01ACMNPTVacdefgilmnoprstuy?>
+      <?renderCache.subset "Times New Roman" 1 0 ISO-8859-1 4 68 17 0003002C0033003500440046004700480049004A004B004C00510052005500560058 IPRacdefghinorsu?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner FormTargetVersion 30?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 117?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://s4hana2020.support.com:8007/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>5</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection name="Z6829892_VENDOR_FORM" dataDescription="data">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <GT_TABLE1 dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <LIFNR/>
+               <LAND1/>
+               <NAME1/>
+               <ORT01/>
+            </DATA>
+         </GT_TABLE1>
+         <GT_TABLE2 dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <INFNR/>
+               <MATNR/>
+               <MATKL/>
+               <LIFNR/>
+               <ANZPU/>
+               <RELIF/>
+               <MFRNR/>
+            </DATA>
+         </GT_TABLE2>
+         <GT_TABLE3 dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <MATNR/>
+               <SPRAS/>
+               <MAKTX/>
+            </DATA>
+         </GT_TABLE3>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale name="en_IN" desc="English (India)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">D MMMM YYYY</datePattern>
+         <datePattern name="med">DD-MMM-YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">Rs.</currencySymbol>
+         <currencySymbol name="isoname">INR</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.139439, 2011/06/07-10:39:26        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2026-04-13T21:46:30Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 10.4</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 10.4</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:158a2404-7003-442f-83e0-6222398d5e28</xmpMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>10.4.0.20160610.1.923074</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
